@@ -182,6 +182,7 @@ public class FtpClient {
             } catch (Exception e) {
                 logger.severe("Erro ao litar arquivos");
                 logger.severe(Arrays.toString(e.getStackTrace()));
+                e.printStackTrace();
                 return null;
             }
 
