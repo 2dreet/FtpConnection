@@ -1,6 +1,4 @@
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.net.ftp.FTPClient;
-import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.util.TrustManagerUtils;
 import org.springframework.integration.ftp.session.DefaultFtpSessionFactory;
 import org.springframework.integration.ftp.session.DefaultFtpsSessionFactory;
@@ -9,7 +7,6 @@ import org.springframework.integration.sftp.session.DefaultSftpSessionFactory;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
